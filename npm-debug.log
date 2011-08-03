@@ -1,0 +1,498 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+info using npm@1.0.13
+info using node@v0.4.8
+verbose /usr/local/bin/node node symlink
+verbose config file /Users/wangzelong2007/.npmrc
+verbose config file /usr/local/etc/npmrc
+silly testEngine { name: 'node-example',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: { express: '2.2.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { dev: true,
+silly testEngine      file: '/Users/wangzelong2007/Documents/project/test/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'node-example@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.13',
+silly testEngine   _nodeVersion: 'v0.4.8',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/wangzelong2007/Documents/project/test/package.json
+verbose loadDefaults node-example@0.0.1
+verbose where, deps [ '/Users/wangzelong2007/Documents/project/test',
+verbose where, deps   [ 'express' ] ]
+verbose from cache /Users/wangzelong2007/Documents/project/test/package.json
+info preinstall node-example@0.0.1
+verbose from cache /Users/wangzelong2007/Documents/project/test/package.json
+verbose into /Users/wangzelong2007/Documents/project/test [ 'express@2.2.0' ]
+verbose cache add [ 'express@2.2.0', null ]
+info addNamed [ 'express', '2.2.0' ]
+verbose addNamed [ '2.2.0', '2.2.0' ]
+verbose GET express/2.2.0
+verbose raw, before any munging express/2.2.0
+verbose url resolving [ 'http://registry.npmjs.org/', './express/2.2.0' ]
+verbose url resolved http://registry.npmjs.org/express/2.2.0
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/express/2.2.0',
+verbose url parsed   pathname: '/express/2.2.0' }
+verbose response http://registry.npmjs.org/express/2.2.0
+silly chunk {"name":"express","description":"Sinatra inspired web development framework","version":"2.2.0","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"contributors":[{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},{"name":"Aaron Heckmann","email":"aaron.heckmann+github@gmail.com"},{"name":"Ciaran Jessup","email":"ciaranj@gmail.com"},{"name":"Guillermo Rauch","email":"rauchg@gmail.com"}],"dependencies":{"connect":">= 1.2.0 < 2.0.0","mime":">= 0.0.1","qs":">= 0.0.6"},"keywords":["framework","sinatra","web","rest","restful"],"repository":{"type":"git","url":"git://github.com/visionmedia/express.git"},"main":"index","bin":{"express":"./bin/express"},"engines":{"node":">= 0.4.1 < 0.5.0"},"_id":"express@2.2.0","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","directories":{"lib":"./lib","bin":"./bin"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"ab38a7eaad67a1c28495021a798d234086d73dea","tarball":"http://registry.npmjs.org/express/-/express-2.2.0.tgz"}}
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"DHG4WXRTXPIQ0MFVWMHY3WQQP"',
+silly get cb     date: 'Wed, 03 Aug 2011 13:59:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1008' } ]
+verbose mkdir done: /Users/wangzelong2007/.npm/express/2.2.0 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8l-v83.1.8.16-darwin-11.0.0',
+verbose bin dist   { shasum: 'ab38a7eaad67a1c28495021a798d234086d73dea',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-2.2.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/express/-/express-2.2.0.tgz',
+verbose addRemoteTarball   'ab38a7eaad67a1c28495021a798d234086d73dea' ]
+verbose mkdir done: /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921 755
+info fetch http://registry.npmjs.org/express/-/express-2.2.0.tgz
+verbose fetch to /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/tmp.tgz
+silly updated sha bytes 25441
+info shasum ab38a7eaad67a1c28495021a798d234086d73dea
+info shasum /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/tmp.tgz
+verbose mkdir done: /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/tmp.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm"
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/.npmignore
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/History.md
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/index.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/LICENSE
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/Makefile
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/package.json
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/Readme.md
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/bin/
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/bin/express
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/express.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/http.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/https.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/request.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/response.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/view.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/view/
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/view/partial.js
+silly asyncMap in gTP /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package/lib/view/view.js
+verbose gunzed /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package
+verbose rm'ed /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package
+verbose renamed [ '/var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/___package.npm/package',
+verbose renamed   '/var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package' ]
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.2.0',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.2.0 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.0.6' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express@2.2.0',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.13',
+silly testEngine   _nodeVersion: 'v0.4.8',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package' }
+verbose caching /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package/package.json
+verbose loadDefaults express@2.2.0
+verbose tarball contents [ 'package' ]
+verbose from cache /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package/package.json
+verbose pack /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312379958994-0.22875231364741921/contents/package /Users/wangzelong2007/.npm/express/2.2.0/package.tgz
+verbose mkdir'ed /Users/wangzelong2007/.npm/express/2.2.0
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/.npmignore',
+silly tar args   'package/History.md',
+silly tar args   'package/index.js',
+silly tar args   'package/LICENSE',
+silly tar args   'package/Makefile',
+silly tar args   'package/package.json',
+silly tar args   'package/Readme.md',
+silly tar args   'package/bin/express',
+silly tar args   'package/lib/http.js',
+silly tar args   'package/lib/express.js',
+silly tar args   'package/lib/https.js',
+silly tar args   'package/lib/request.js',
+silly tar args   'package/lib/response.js',
+silly tar args   'package/lib/utils.js',
+silly tar args   'package/lib/view.js',
+silly tar args   'package/lib/view/partial.js',
+silly tar args   'package/lib/view/view.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /Users/wangzelong2007/.npm/express/2.2.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/wangzelong2007/.npm/express/2.2.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/Users/wangzelong2007/.npm/express/2.2.0/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/Users/wangzelong2007/.npm/express/2.2.0/___package.npm"
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/History.md
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/index.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/Makefile
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/package.json
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/Readme.md
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/bin/
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/bin/express
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/express.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/http.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/https.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/request.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/response.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/view.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/view/
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/view/partial.js
+silly asyncMap in gTP /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package/lib/view/view.js
+verbose gunzed /Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package
+verbose rm'ed /Users/wangzelong2007/.npm/express/2.2.0/package
+verbose renamed [ '/Users/wangzelong2007/.npm/express/2.2.0/___package.npm/package',
+verbose renamed   '/Users/wangzelong2007/.npm/express/2.2.0/package' ]
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.2.0',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.2.0 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.0.6' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/wangzelong2007/.npm/express/2.2.0/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express@2.2.0',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.13',
+silly testEngine   _nodeVersion: 'v0.4.8',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '78302e449f2e3c2a3524a1417d99ffa195d19bb8' },
+silly testEngine   scripts: {} }
+verbose caching /Users/wangzelong2007/.npm/express/2.2.0/package/package.json
+verbose loadDefaults express@2.2.0
+silly updated sha bytes 25249
+info shasum 78302e449f2e3c2a3524a1417d99ffa195d19bb8
+info shasum /Users/wangzelong2007/.npm/express/2.2.0/package.tgz
+verbose from cache /Users/wangzelong2007/.npm/express/2.2.0/package/package.json
+verbose chmod /Users/wangzelong2007/.npm/express/2.2.0/package.tgz 644
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '2.2.0',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk',
+silly resolved          email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: 
+silly resolved      { connect: '>= 1.2.0 < 2.0.0',
+silly resolved        mime: '>= 0.0.1',
+silly resolved        qs: '>= 0.0.6' },
+silly resolved     keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/express.git' },
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     engines: { node: '>= 0.4.1 < 0.5.0' },
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/Users/wangzelong2007/.npm/express/2.2.0/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'express@2.2.0',
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.13',
+silly resolved     _nodeVersion: 'v0.4.8',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '78302e449f2e3c2a3524a1417d99ffa195d19bb8' },
+silly resolved     scripts: {} } ]
+info into /Users/wangzelong2007/Documents/project/test express@2.2.0
+info installOne express@2.2.0
+info unbuild /Users/wangzelong2007/Documents/project/test/node_modules/express
+verbose from cache /Users/wangzelong2007/.npm/express/2.2.0/package/package.json
+verbose mkdir done: /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/wangzelong2007/Documents/project/test/node_modules/express
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/Users/wangzelong2007/.npm/express/2.2.0/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/Users/wangzelong2007/Documents/project/test/node_modules/___express.npm"
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/.npmignore
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/History.md
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/index.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/LICENSE
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/Makefile
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/package.json
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/Readme.md
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/bin/
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/bin/express
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/express.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/http.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/https.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/request.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/response.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/utils.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/view.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/view/
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/view/partial.js
+silly asyncMap in gTP /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package/lib/view/view.js
+verbose gunzed /Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package
+verbose rm'ed /Users/wangzelong2007/Documents/project/test/node_modules/express
+verbose renamed [ '/Users/wangzelong2007/Documents/project/test/node_modules/___express.npm/package',
+verbose renamed   '/Users/wangzelong2007/Documents/project/test/node_modules/express' ]
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.2.0',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.2.0 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.0.6' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/wangzelong2007/Documents/project/test/node_modules/express/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express@2.2.0',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.13',
+silly testEngine   _nodeVersion: 'v0.4.8',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/wangzelong2007/Documents/project/test/node_modules/express/package.json
+verbose loadDefaults express@2.2.0
+info preinstall express@2.2.0
+verbose from cache /Users/wangzelong2007/Documents/project/test/node_modules/express/package.json
+verbose into /Users/wangzelong2007/Documents/project/test/node_modules/express [ 'connect@>= 1.2.0 < 2.0.0',
+verbose into /Users/wangzelong2007/Documents/project/test/node_modules/express   'mime@>= 0.0.1',
+verbose into /Users/wangzelong2007/Documents/project/test/node_modules/express   'qs@>= 0.0.6' ]
+verbose cache add [ 'connect@>= 1.2.0 < 2.0.0', null ]
+info addNamed [ 'connect', '>= 1.2.0 < 2.0.0' ]
+verbose addNamed [ null, '>=1.2.0 <2.0.0' ]
+verbose GET connect
+verbose raw, before any munging connect
+verbose url resolving [ 'http://registry.npmjs.org/', './connect' ]
+verbose url resolved http://registry.npmjs.org/connect
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/connect',
+verbose url parsed   pathname: '/connect' }
+verbose cache add [ 'mime@>= 0.0.1', null ]
+info addNamed [ 'mime', '>= 0.0.1' ]
+verbose addNamed [ null, '>=0.0.1' ]
+verbose cache add [ 'qs@>= 0.0.6', null ]
+info addNamed [ 'qs', '>= 0.0.6' ]
+verbose addNamed [ null, '>=0.0.6' ]
+verbose GET mime
+verbose raw, before any munging mime
+verbose url resolving [ 'http://registry.npmjs.org/', './mime' ]
+verbose url resolved http://registry.npmjs.org/mime
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/mime',
+verbose url parsed   pathname: '/mime' }
+verbose GET qs
+verbose raw, before any munging qs
+verbose url resolving [ 'http://registry.npmjs.org/', './qs' ]
+verbose url resolved http://registry.npmjs.org/qs
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/qs',
+verbose url parsed   pathname: '/qs' }
+verbose response http://registry.npmjs.org/connect
+silly chunk {"_id":"connect","_rev":"135-df50a559a9cf1d3bdf6098c5cd141ae3","name":"connect","description":"High performance middleware framework","dist-tags":{"latest":"1.6.0"},"versions":{"0.0.1":{"name":"connect","description":"High performance middleware","version":"0.0.1","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.0.1","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.0.1.tgz"}},"0.0.2":{"name":"connect","description":"High performance middleware","version":"0.0.2","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98-0"},"_id":"connect@0.0.2","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.0.2.tgz"}},"0.0.3":{"name":"connect","description":"High performance middleware","version":"0.0.3","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98-0"},"_id":"connect@0.0.3","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.0.3.tgz"}},"0.0.4":{"name":"connect","description":"High performance middleware","version":"0.0.4","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.0.4","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.0.4.tgz"}},"0.0.5":{"name":"connect","description":"High performance middleware","version":"0.0.5","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"l
+silly chunk ib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.0.5","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.0.5.tgz"}},"0.0.6":{"name":"connect","description":"High performance middleware","version":"0.0.6","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.0.6","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.0.6.tgz"}},"0.1.0":{"name":"connect","description":"High performance middleware","version":"0.1.0","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.1.0","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.1.0.tgz"}},"0.2.0":{"name":"connect","description":"High performance middleware","version":"0.2.0","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.0","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.2.0.tgz"}},"0.2.1":{"name":"connect","description":"High performance middleware","version":"0.2.1","contributors":[{"name":"Tim Caswell","email":"tim@extjs.com"},{"name":"TJ Holowaychuk","email":"tj@extjs.com"}],"bin":{"connect":"./bin/connect"},"directories":{"lib":"./lib/connect"},"scripts":{"activate":"make install-docs","test":"make test","deactivate":"make uninstall"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.1","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.2.1.tgz"}},"0.2.2":{"name":"connect","description":"High performance middleware","version":"0.2.2","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@sencha.com"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.2","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.2.2.tgz"}},"0.2.3":{"name":"connect","description":"High performance middleware framework","version":"0.2.3","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@sencha.com"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.3","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.2.3.tgz"}},"0.2.4":{"name":"connect","description":"High performance middleware framework","version":"0.2.4","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@sencha.com"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.4","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.2.4.tgz"}},"0.2.5":{"name":"connect","description":"High performance middleware framework","version":"0.2.5","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@sencha.com"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.5","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://
+verbose response http://registry.npmjs.org/mime
+silly chunk {"_id":"mime","_rev":"29-adc1d845166e947dcfcc7755dc484576","name":"mime","description":"A comprehensive library for mime-type mapping","dist-tags":{"latest":"1.2.2"},"versions":{"1.0.0":{"name":"mime","description":"A super simple utility library for dealing with mime-types","url":"http://github.com/bentomas/node-mime","keywords":["util","mime"],"author":{"name":"Benjamin Thomas","email":"benjamin@benjaminthomas.org"},"contributors":[],"dependencies":{},"lib":".","main":"mime","version":"1.0.0","_id":"mime@1.0.0","engines":{"node":"*"},"_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/mime/-/mime-1.0.0.tgz"},"directories":{}},"1.1.0":{"name":"mime","description":"A super simple utility library for dealing with mime-types","url":"http://github.com/bentomas/node-mime","keywords":["util","mime"],"author":{"name":"Benjamin Thomas","email":"benjamin@benjaminthomas.org"},"contributors":[],"dependencies":{},"lib":".","main":"mime","version":"1.1.0","_id":"mime@1.1.0","engines":{"node":"*"},"_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/mime/-/mime-1.1.0.tgz"},"directories":{}},"1.2.1":{"name":"mime","description":"A comprehensive library for mime-type mapping","url":"http://github.com/bentomas/node-mime","keywords":["util","mime"],"author":{"name":"Benjamin Thomas","email":"benjamin@benjaminthomas.org"},"contributors":[],"dependencies":{},"lib":".","main":"mime","version":"1.2.1","_id":"mime@1.2.1","engines":{"node":"*"},"_engineSupported":true,"_npmVersion":"0.2.16","_nodeVersion":"v0.3.1","directories":{},"modules":{"README.md":"README.md","index.js":"index.js","package.json":"package.json","mime.js":"mime.js","node.types":"node.types","mime.types":"mime.types","test.js":"test.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"9876d4db9491091d154288a32893564839b8e04e","tarball":"http://registry.npmjs.org/mime/-/mime-1.2.1.tgz"}},"1.2.2":{"name":"mime","description":"A comprehensive library for mime-type mapping","url":"http://github.com/bentomas/node-mime","keywords":["util","mime"],"author":{"name":"Benjamin Thomas","email":"benjamin@benjaminthomas.org"},"contributors":[],"dependencies":{},"lib":".","main":"mime.js","version":"1.2.2","devDependencies":{},"_id":"mime@1.2.2","engines":{"node":"*"},"_engineSupported":true,"_npmVersion":"1.0.6","_nodeVersion":"v0.4.6","_defaultsLoaded":true,"dist":{"shasum":"b9d6355bf53e8d7d56693130e451daff340148cf","tarball":"http://registry.npmjs.org/mime/-/mime-1.2.2.tgz"},"scripts":{},"directories":{}}},"maintainers":[{"name":"broofa","email":"robert@broofa.com"},{"name":"bentomas","email":"benjamin@benjaminthomas.org"}],"author":{"name":"Benjamin Thomas","email":"benjamin@benjaminthomas.org"},"time":{"1.0.0":"2011-01-20T16:27:31.008Z","1.1.0":"2011-01-20T16:27:31.008Z","1.2.1":"2011-01-20T16:27:31.008Z","1.2.2":"2011-05-09T11:56:13.470Z"}}
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"8UGUA58059XD1PF1NCU87J09H"',
+silly get cb     date: 'Wed, 03 Aug 2011 13:59:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2969' } ]
+verbose mkdir done: /Users/wangzelong2007/.npm/mime 755
+verbose GET mime/1.2.2
+verbose raw, before any munging mime/1.2.2
+verbose url resolving [ 'http://registry.npmjs.org/', './mime/1.2.2' ]
+verbose url resolved http://registry.npmjs.org/mime/1.2.2
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/mime/1.2.2',
+verbose url parsed   pathname: '/mime/1.2.2' }
+verbose response http://registry.npmjs.org/qs
+silly chunk {"_id":"qs","_rev":"21-9fc2127352d2b6b64eacc301c8723362","name":"qs","description":"querystring parser","dist-tags":{"latest":"0.3.0"},"versions":{"0.0.1":{"name":"qs","description":"querystring parser","version":"0.0.1","repository":{},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.0.1","_engineSupported":true,"_npmVersion":"0.2.16","_nodeVersion":"v0.3.7","directories":{"lib":"./lib"},"modules":{"querystring.js":"lib/querystring.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"ce6017433e83b67231af788c6eb00ba0dba3f964","tarball":"http://registry.npmjs.org/qs/-/qs-0.0.1.tgz"}},"0.0.2":{"name":"qs","description":"querystring parser","version":"0.0.2","repository":{},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.0.2","_engineSupported":true,"_npmVersion":"0.2.16","_nodeVersion":"v0.2.6","directories":{"lib":"./lib"},"modules":{"querystring.js":"lib/querystring.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"b4a180d16b43d7f592128e9f6b609e3f225a8d7a","tarball":"http://registry.npmjs.org/qs/-/qs-0.0.2.tgz"}},"0.0.3":{"name":"qs","description":"querystring parser","version":"0.0.3","repository":{},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.0.3","_engineSupported":true,"_npmVersion":"0.2.16","_nodeVersion":"v0.3.8","directories":{"lib":"./lib"},"modules":{"querystring.js":"lib/querystring.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"e16a190316d4eca7555c6d361f1aa9f1ff4ce124","tarball":"http://registry.npmjs.org/qs/-/qs-0.0.3.tgz"}},"0.0.4":{"name":"qs","description":"querystring parser","version":"0.0.4","repository":{},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.0.4","_engineSupported":true,"_npmVersion":"0.2.16","_nodeVersion":"v0.3.8","directories":{"lib":"./lib"},"modules":{"querystring.js":"lib/querystring.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"5484dfa3cb8f58cca93ba1247d8a3015be0d9cfa","tarball":"http://registry.npmjs.org/qs/-/qs-0.0.4.tgz"}},"0.0.5":{"name":"qs","description":"querystring parser","version":"0.0.5","repository":{},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.0.5","_engineSupported":true,"_npmVersion":"0.2.16","_nodeVersion":"v0.4.0","directories":{"lib":"./lib"},"modules":{"querystring.js":
+silly chunk "lib/querystring.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"54e6adc62a8bfd1d837d81cd6bf1d68ff203aba5","tarball":"http://registry.npmjs.org/qs/-/qs-0.0.5.tgz"}},"0.0.6":{"name":"qs","description":"querystring parser","version":"0.0.6","repository":{},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.0.6","_engineSupported":true,"_npmVersion":"0.2.16","_nodeVersion":"v0.2.6","directories":{"lib":"./lib"},"modules":{"querystring.js":"lib/querystring.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"481659b7e5bf6a5ea898010de5aed35eb469e124","tarball":"http://registry.npmjs.org/qs/-/qs-0.0.6.tgz"}},"0.0.7":{"name":"qs","description":"querystring parser","version":"0.0.7","repository":{"url":""},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.0.7","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.2","directories":{"lib":"./lib"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"7a85d1c3cd17ad9ba94211cbb24b57f88f75ec40","tarball":"http://registry.npmjs.org/qs/-/qs-0.0.7.tgz"}},"0.1.0":{"name":"qs","description":"querystring parser","version":"0.1.0","repository":{"url":""},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_id":"qs@0.1.0","_engineSupported":true,"_npmVersion":"0.3.18","_nodeVersion":"v0.4.5","directories":{"lib":"./lib"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"9a0d2d70d01f63d3401ea4b050822601b462ee6b","tarball":"http://registry.npmjs.org/qs/-/qs-0.1.0.tgz"}},"0.2.0":{"name":"qs","description":"querystring parser","version":"0.2.0","repository":{"url":""},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_npmJsonOpts":{"file":"/Users/tj/.npm/qs/0.2.0/package/package.json","wscript":false,"contributors":false,"serverjs":false},"_id":"qs@0.2.0","dependencies":{},"devDependencies":{},"_engineSupported":true,"_npmVersion":"1.0.14","_nodeVersion":"v0.4.8","_defaultsLoaded":true,"dist":{"shasum":"b39234e77a55f6276a9ca305210db02304792487","tarball":"http://registry.npmjs.org/qs/-/qs-0.2.0.tgz"},"scripts":{},"directories":{}},"0.3.0":{"name":"qs","description":"querystring parser","version":"0.3.0","repository":{"url":""},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_npmJsonOpts":{"file":"/Users/tj/.npm/qs/0.3.0/package/package.json","wscript":false,"contributors":false,"serverjs":false},"_id":"qs@0.3.0","dependencies":{},"devDependencies":{},"_engineSupported":true,"_npmVersion":"1.0.14","_nodeVersion":"v0.4.9","_defaultsLoaded":true,"dist":{"shasum":"502ec1168b8f778921c31d0e4351759bb97cfb84","tarball":"http://registry.npmjs.org/qs/-/qs-0.3.0.tgz"},"scripts":{},"directories":{}}},"maintainers":[{"name":"tjholowaychuk","email":"tj@vision-media.ca"}],"time":{"0.0.1":"2011-02-04T04:40:23.984Z","0.0.2":"2011-02-07T16:45:02.442Z","0.0.3":"2011-02-09T00:52:16.616Z","0.0.4":"2011-02-09T20:45:35.890Z","0.0.5":"2011-02-10T23:45:02.307Z","0.0.6":"2011-02-14T22:27:23.241Z","0.0.7":"2011-03-13T17:20:41.673Z","0.1.0":"2011-04-13T18:07:22.394Z","0.2.0":"2011-06-29T16:33:55.231Z","0.3.0":"2011-07-19T19:07:48.886Z"},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"repository":{"url":""}}
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"DKNOHT26LKI8ASYLRRBX0OCGS"',
+silly get cb     date: 'Wed, 03 Aug 2011 13:59:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '6302' } ]
+verbose mkdir done: /Users/wangzelong2007/.npm/qs 755
+verbose GET qs/0.3.0
+verbose raw, before any munging qs/0.3.0
+verbose url resolving [ 'http://registry.npmjs.org/', './qs/0.3.0' ]
+verbose url resolved http://registry.npmjs.org/qs/0.3.0
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/qs/0.3.0',
+verbose url parsed   pathname: '/qs/0.3.0' }
+verbose response http://registry.npmjs.org/qs/0.3.0
+silly chunk {"name":"qs","description":"querystring parser","version":"0.3.0","repository":{"url":""},"author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca","url":"http://tjholowaychuk.com"},"main":"index","engines":{"node":"*"},"_npmJsonOpts":{"file":"/Users/tj/.npm/qs/0.3.0/package/package.json","wscript":false,"contributors":false,"serverjs":false},"_id":"qs@0.3.0","dependencies":{},"devDependencies":{},"_engineSupported":true,"_npmVersion":"1.0.14","_nodeVersion":"v0.4.9","_defaultsLoaded":true,"dist":{"shasum":"502ec1168b8f778921c31d0e4351759bb97cfb84","tarball":"http://registry.npmjs.org/qs/-/qs-0.3.0.tgz"},"scripts":{},"directories":{}}
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"DKNOHT26LKI8ASYLRRBX0OCGS"',
+silly get cb     date: 'Wed, 03 Aug 2011 14:00:01 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '647' } ]
+verbose mkdir done: /Users/wangzelong2007/.npm/qs/0.3.0 755
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8l-v83.1.8.16-darwin-11.0.0',
+verbose bin dist   { shasum: '502ec1168b8f778921c31d0e4351759bb97cfb84',
+verbose bin dist     tarball: 'http://registry.npmjs.org/qs/-/qs-0.3.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/qs/-/qs-0.3.0.tgz',
+verbose addRemoteTarball   '502ec1168b8f778921c31d0e4351759bb97cfb84' ]
+verbose mkdir done: /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312380001772-0.4742010135669261 755
+info fetch http://registry.npmjs.org/qs/-/qs-0.3.0.tgz
+verbose fetch to /var/folders/3k/3_ltcxz11p7dz_fx9xvfdwwh0000gn/T/npm-1312379958994/1312380001772-0.4742010135669261/tmp.tgz
+silly chunk registry.npmjs.org/connect/-/connect-0.2.5.tgz"}},"0.2.6":{"name":"connect","description":"High performance middleware framework","version":"0.2.6","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.6","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.2.6.tgz"}},"0.2.7":{"name":"connect","description":"High performance middleware framework","version":"0.2.7","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.2.7","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.2.7.tgz"}},"0.3.0":{"name":"connect","description":"High performance middleware framework","version":"0.3.0","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.3.0","_nodeSupported":true,"_npmVersion":"0.2.7-3","_nodeVersion":"v0.2.4","dist":{"tarball":"http://registry.npmjs.org/connect/-/connect-0.3.0.tgz"}},"0.4.0":{"name":"connect","description":"High performance middleware framework","version":"0.4.0","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.4.0","_nodeSupported":true,"_npmVersion":"0.2.10","_nodeVersion":"v0.2.5","dist":{"shasum":"98046399291a04efd889643267c8fba17a695ba1","tarball":"http://registry.npmjs.org/connect/-/connect-0.4.0.tgz"}},"0.5.0":{"name":"connect","description":"High performance middleware framework","version":"0.5.0","contributors":[{"name":"Tim Caswell","email":"tim@sencha.com"},{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.5.0","_nodeSupported":true,"_npmVersion":"0.2.11-1","_nodeVersion":"v0.2.5","dist":{"shasum":"c9a1814ba8fa92f2c4910493c568327c0950d977","tarball":"http://registry.npmjs.org/connect/-/connect-0.5.0.tgz"}},"0.5.1":{"name":"connect","description":"High performance middleware framework","version":"0.5.1","contributors":[{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},{"name":"Tim Caswell","email":"tim@sencha.com"}],"directories":{"lib":"./lib/connect"},"engines":{"node":">= 0.1.98"},"_id":"connect@0.5.1","_engineSupported":true,"_npmVersion":"0.2.13-1","_nodeVersion":"v0.2.5","dist":{"shasum":"781da5f8c13cc40f0003c02ac824ed7700bb08bf","tarball":"http:/
+verbose response http://registry.npmjs.org/mime/1.2.2
+silly chunk <html><title>Request timeout</title><body><h1>Request timeout</h1></body></html>
+verbose bad json <html><title>Request timeout</title><body><h1>Request timeout</h1></body></html>
+ERR! registry error parsing json
+silly get cb [ 408,
+silly get cb   { 'content-type': 'text/html',
+silly get cb     'content-length': '80' } ]
+verbose about to build /Users/wangzelong2007/Documents/project/test/node_modules/express
+ERR! error installing express@2.2.0 SyntaxError: Unexpected token ILLEGAL
+ERR! error installing express@2.2.0 <html><title>Request timeout</title><body><h1>Request timeout</h1></body></html>
+ERR! error installing express@2.2.0     at Object.parse (native)
+ERR! error installing express@2.2.0     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:157:25)
+ERR! error installing express@2.2.0     at IncomingMessage.emit (events.js:81:20)
+ERR! error installing express@2.2.0     at HTTPParser.onMessageComplete (http.js:133:23)
+ERR! error installing express@2.2.0     at Socket.ondata (http.js:1226:22)
+ERR! error installing express@2.2.0     at Socket._onReadable (net.js:683:27)
+ERR! error installing express@2.2.0     at IOWatcher.onReadable [as callback] (net.js:177:10)
+info unbuild /Users/wangzelong2007/Documents/project/test/node_modules/express
+verbose from cache /Users/wangzelong2007/Documents/project/test/node_modules/express/package.json
+info preuninstall express@2.2.0
+info uninstall express@2.2.0
+verbose unbuild express@2.2.0 [ false,
+verbose unbuild express@2.2.0   '/usr/local/lib/node_modules',
+verbose unbuild express@2.2.0   '/Users/wangzelong2007/Documents/project/test/node_modules' ]
+verbose binRoot [ '/Users/wangzelong2007/Documents/project/test/node_modules/.bin',
+verbose binRoot   { express: './bin/express' } ]
+info postuninstall express@2.2.0
+verbose installOne cb express@2.2.0
+ERR! SyntaxError: Unexpected token ILLEGAL
+ERR! <html><title>Request timeout</title><body><h1>Request timeout</h1></body></html>
+ERR!     at Object.parse (native)
+ERR!     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:157:25)
+ERR!     at IncomingMessage.emit (events.js:81:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:133:23)
+ERR!     at Socket.ondata (http.js:1226:22)
+ERR!     at Socket._onReadable (net.js:683:27)
+ERR!     at IOWatcher.onReadable [as callback] (net.js:177:10)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.0.0
+ERR! command "node" "/usr/local/bin/npm" "install"
+verbose exit [ 1, true ]
